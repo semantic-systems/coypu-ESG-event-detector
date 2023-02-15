@@ -1,0 +1,14 @@
+version: "3"
+services:
+  event_extractor:
+    build: .
+    ports:
+      - "5279:5279"
+    networks:
+      - demo_network
+    image: esg_event_type_detector
+    container_name: esg_event_type_detector_container
+
+networks:
+  demo_network:
+    external: true
