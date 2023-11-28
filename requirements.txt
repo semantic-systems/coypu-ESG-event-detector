@@ -1,7 +1,6 @@
 brotlipy
 gdown
 omegaconf
-pip-chill
 pyopenssl
 pysocks
 pytest
